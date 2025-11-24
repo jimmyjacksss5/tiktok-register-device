@@ -6,8 +6,7 @@ import time
 from urllib.parse import urlencode, urlparse, urlunparse, parse_qs
 
 import tls_client
-from src.encryption.md5 import XGorgon
-from demo2 import sign_request
+
 
 
 def get_rand_from_file(path):
